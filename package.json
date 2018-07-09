@@ -1,0 +1,17 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node_modules/.bin/ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/inquirer": "0.0.42",
+    "@types/node": "10.3.2",
+    "aws-sdk": "^2.270.1",
+    "inquirer": "^6.0.0",
+    "ts-node": "6.1.0",
+    "typescript": "2.9.1"
+  }
+}
